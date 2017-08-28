@@ -13,7 +13,7 @@ public Consumer(Queue<Integer> queue) {
 public void run() {
 	while(true){
 		try {
-			System.out.println("Consumeing  dsgdsg element :"+consume());
+			System.out.println("Consumeing  dsgdsg  of innodtaa element :"+consume());
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
