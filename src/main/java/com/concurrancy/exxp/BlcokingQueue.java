@@ -7,6 +7,7 @@ import java.util.concurrent.Executors;
 
 public class BlcokingQueue {
 public static void main(String[] args) {
+	//Create Bounded Blocking Queue object
 	BlockingQueue<Integer> bcQueue = new ArrayBlockingQueue<>(10);
 	ExecutorService exeSer= Executors.newFixedThreadPool(2);
 	exeSer.execute(new ProducerBlockingQueue(bcQueue));
